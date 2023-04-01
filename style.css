@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--Strong-Cyan: hsl(171, 66%, 44%);
+	--Light-Blue: hsl(233, 100%, 69%);
+
+	--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+	--Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+.container {
+	text-align: center;
+	font-family: "Bai Jamjuree", sans-serif;
+	max-width: 1000px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.firstBox {
+	margin-top: -130px;
+}
+
+.title {
+	color: var(--Dark-Grayish-Blue);
+	margin-top: 50px;
+}
+.paragraf {
+	color: var(--Grayish-Blue);
+	margin-top: 20px;
+}
+
+.firstButton {
+	padding: 10px 20px;
+	background-color: var(--Strong-Cyan);
+	border-radius: 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin-top: 40px;
+}
+.secondButton {
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: var(--Light-Blue);
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin-top: 40px;
+}
+
+.firstButton:hover {
+	background-color: hsla(171, 66%, 44%, 0.8);
+}
+.secondButton:hover {
+	background-color: hsla(233, 100%, 69%, 0.8);
+}
+.secondTitle {
+	color: var(--Dark-Grayish-Blue);
+	margin-top: 100px;
+}
+
+.secondParagraf {
+	color: var(--Grayish-Blue);
+	margin-top: 20px;
+}
+
+.thirdBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	text-align: left;
+	gap: 30px;
+}
+
+.imgComputer {
+	max-width: 100%;
+	display: block;
+}
+.rightTitle {
+	color: var(--Dark-Grayish-Blue);
+}
+
+.thirdParagraf {
+	color: var(--Grayish-Blue);
+	font-size: 0.875rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.secondImage {
+	width: 80%;
+	margin: 50px 0px;
+}
+
+.sixBox {
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 80px;
+}
+
+.prviBox,
+.drugiBox,
+.treciBox,
+img {
+	margin-bottom: 30px;
+}
+.logos {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+}
+
+footer {
+	background-color: rgb(241, 241, 241);
+	height: 100px;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.footerLogo img {
+	width: 40px;
+	margin: 0;
+}
+
+.footerLogos img {
+	margin: 0;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	cursor: pointer;
+}
+li {
+	list-style-type: none;
+	color: var(--Grayish-Blue);
+}
+
+li:hover {
+	color: var(--Strong-Cyan);
+}
