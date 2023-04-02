@@ -33,7 +33,7 @@
 		</style>
 	</head>
 	<body>
-		<img class="backimage" src="./images/bg-header-desktop.png" alt="" />
+		<img class="backgroundImage" src="./images/bg-header-desktop.png" alt="" />
 		<div class="container">
 			<div class="firstBox">
 				<img class="firstLogo" src="./images/logo.svg" alt="logo" />
@@ -43,8 +43,10 @@
 					Clipboard allows you to track and organize everything you copy.
 					Instantly access your clipboard on all your devices.
 				</p>
-				<button class="firstButton">Download for iOS</button>
-				<button class="secondButton">Download for Mac</button>
+				<div class="buttons">
+					<button class="iosButton">Download for iOS</button>
+					<button class="macButton">Download for Mac</button>
+				</div>
 			</div>
 			<div class="secondBox">
 				<h2 class="secondTitle">Keep track of your snippets</h2>
@@ -97,7 +99,11 @@
 			</div>
 			<div class="sixBox">
 				<div class="prviBox">
-					<img src="./images/icon-blacklist.svg" alt="blacklist" />
+					<img
+						class="sixBoxLogo"
+						src="./images/icon-blacklist.svg"
+						alt="blacklist"
+					/>
 
 					<h3 class="rightTitle">Create blacklists</h3>
 					<p class="thirdParagraf">
@@ -106,14 +112,18 @@
 					</p>
 				</div>
 				<div class="drugiBox">
-					<img src="./images/icon-text.svg" alt="text" />
+					<img class="sixBoxLogo" src="./images/icon-text.svg" alt="text" />
 					<h3 class="rightTitle">Plain text snippets</h3>
 					<p class="thirdParagraf">
 						Remove unwanted formatting from copied text for a consistent look.
 					</p>
 				</div>
 				<div class="treciBox">
-					<img src="./images/icon-preview.svg" alt="preview" />
+					<img
+						class="sixBoxLogo"
+						src="./images/icon-preview.svg"
+						alt="preview"
+					/>
 					<h3 class="rightTitle">Sneak preview</h3>
 					<p class="thirdParagraf">
 						Quick preview of all snippets on your Clipboard for easy access.
@@ -134,9 +144,10 @@
 					with iCloud and you’re ready to start adding to your clipboard.
 				</p>
 			</div>
-
-			<button class="firstButton">Download for iOS</button>
-			<button class="secondButton">Download for Mac</button>
+			<div class="buttons">
+				<button class="iosButton">Download for iOS</button>
+				<button class="macButton">Download for Mac</button>
+			</div>
 		</div>
 
 		<footer>
@@ -151,9 +162,9 @@
 				<li>Install Guide</li>
 			</ul>
 			<div class="footerLogos">
-				<img src="./images/icon-facebook.svg" alt="" />
-				<img src="./images/icon-twitter.svg" alt="" />
-				<img src="./images/icon-instagram.svg" alt="" />
+				<img src="./images/icon-facebook.svg" alt="fb" />
+				<img src="./images/icon-twitter.svg" alt="twitter" />
+				<img src="./images/icon-instagram.svg" alt="instagram" />
 			</div>
 		</footer>
 	</body>

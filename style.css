@@ -12,6 +12,10 @@
 	--Grayish-Blue: hsl(201, 11%, 66%);
 }
 
+.backgroundImage {
+	width: 100%;
+}
+
 .container {
 	text-align: center;
 	font-family: "Bai Jamjuree", sans-serif;
@@ -33,34 +37,42 @@
 	margin-top: 20px;
 }
 
-.firstButton {
+.buttons {
+	width: 380px;
+	gap: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.iosButton {
 	padding: 10px 20px;
 	background-color: var(--Strong-Cyan);
 	border-radius: 20px;
 	color: white;
 	border: none;
 	cursor: pointer;
-	margin-top: 40px;
 }
-.secondButton {
+.macButton {
 	padding: 10px 20px;
 	border-radius: 20px;
 	background-color: var(--Light-Blue);
 	color: white;
 	border: none;
 	cursor: pointer;
-	margin-top: 40px;
 }
 
-.firstButton:hover {
+.iosButton:hover {
 	background-color: hsla(171, 66%, 44%, 0.8);
 }
-.secondButton:hover {
+.macButton:hover {
 	background-color: hsla(233, 100%, 69%, 0.8);
 }
 .secondTitle {
 	color: var(--Dark-Grayish-Blue);
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .secondParagraf {
@@ -95,27 +107,25 @@
 
 .secondImage {
 	width: 80%;
-	margin: 50px 0px;
+	margin-top: 50px;
 }
 
 .sixBox {
 	display: flex;
 	flex-direction: row;
-
 	margin-top: 80px;
 }
 
-.prviBox,
-.drugiBox,
-.treciBox,
-img {
-	margin-bottom: 30px;
+.sixBoxLogo {
+	margin-bottom: 20px;
 }
+
 .logos {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 100px;
+	margin-top: 50px;
+	gap: 50px;
 }
 
 footer {
@@ -151,4 +161,50 @@ li {
 
 li:hover {
 	color: var(--Strong-Cyan);
+}
+
+@media only screen and (max-width: 640px) {
+	.container {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+	.thirdBox {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.sixBox {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.logos {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.buttons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.iosButton {
+		padding: 15px 80px;
+	}
+	.macButton {
+		padding: 15px 80px;
+		margin-top: 10px;
+	}
 }
