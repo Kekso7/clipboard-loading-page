@@ -142,12 +142,6 @@ footer {
 	margin: 0;
 }
 
-.footerLogos img {
-	margin: 0;
-	padding-left: 20px;
-	cursor: pointer;
-}
-
 ul {
 	display: flex;
 	flex-direction: row;
@@ -160,6 +154,15 @@ li {
 }
 
 li:hover {
+	color: var(--Strong-Cyan);
+}
+
+.colorLogo {
+	color: var(--Dark-Grayish-Blue);
+	padding-left: 20px;
+}
+
+.colorLogo:hover {
 	color: var(--Strong-Cyan);
 }
 
